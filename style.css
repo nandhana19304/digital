@@ -1,0 +1,45 @@
+  *{
+    margin:0;
+    padding:0;
+    }
+    body{
+    background-color: aqua;
+    font-family:'CourierNew', Courier,monospace;
+    }
+    header{
+    background-color:palegoldenrod;
+    color:black;
+    text-align:center;
+    padding:20px;
+    }
+    nav ul{
+    list-style-type: none;
+    text-align:center;
+    }
+    nav ul li{
+    display: inline;
+    margin-right:20px;
+    }
+    nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    }
+    .profile{
+    display: block;
+    margin:0auto;
+    width:150px;
+    height:150px;
+    border-radius:50px;
+    object-fit:cover;
+    border:3pxsolid white
+    }
+    section{
+    margin:20px;
+    padding:20px;
+    background-color:palevioletred;
+    box-shadow:0px0px 10pxrgba(0,0,0,0.1);
+    }
+    .project{
+    margin-bottom:20px;
+    }
